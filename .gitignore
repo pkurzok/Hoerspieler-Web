@@ -2,3 +2,6 @@
 .sass-cache
 _site
 Gemfile.lock
+assets/screenshot/.DS_Store
+assets/.DS_Store
+.DS_Store
