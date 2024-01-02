@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Datenschutzerklärung
-include_in_header: true
+include_in_header: false
 ---
 
 **Letzte Aktualisierung**  
