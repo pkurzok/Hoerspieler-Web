@@ -280,11 +280,17 @@ vermeiden (Abschnitt 5.5).
 * **Auf dem Gerät gespeicherte Daten** bleiben erhalten, bis Sie sie in der App löschen oder die
   App entfernen.
 * **iCloud-Daten** bleiben bestehen, bis Sie sie löschen oder die Synchronisierung beenden.
-* **Absturzberichte** werden von Sentry nach Ablauf der dort eingestellten Aufbewahrungsfrist
-  gelöscht; sie beträgt standardmäßig **90 Tage**.
-* **Nutzungsstatistik** wird von Mixpanel nach Ablauf der für das Projekt eingestellten
-  Aufbewahrungsfrist gelöscht.
+* **Absturzberichte** werden nur so lange aufbewahrt, wie sie zur Fehlersuche nützlich sind, und
+  anschließend von Sentry automatisch gelöscht. Maßgeblich ist die im Sentry-Projekt eingestellte
+  Aufbewahrungsfrist; sie liegt bei höchstens **90 Tagen** ab Eingang des Berichts.
+* **Nutzungsstatistik** wird nur so lange aufbewahrt, wie sie für die Auswertung von
+  Nutzungsverläufen über mehrere App-Versionen hinweg erforderlich ist, und anschließend von
+  Mixpanel automatisch gelöscht. Maßgeblich ist die im Mixpanel-Projekt eingestellte
+  Aufbewahrungsfrist.
 * **Server-Logs** von Cloudflare und GitHub werden nach den dortigen, kurzen Fristen gelöscht.
+
+Die jeweils aktuell eingestellten Fristen teilen wir Ihnen auf Anfrage unter der in Abschnitt 1
+genannten Adresse mit.
 
 Nach einem Widerspruch werden keine weiteren Daten erhoben; bereits übermittelte Daten werden nach
 Ablauf der jeweiligen Frist gelöscht. Auf Verlangen veranlassen wir die Löschung früher, siehe
@@ -341,11 +347,11 @@ bei der Behörde Ihres gewöhnlichen Aufenthaltsorts, Ihres Arbeitsplatzes oder 
 mutmaßlichen Verstoßes. Für den Verantwortlichen zuständig ist:
 
 ```
-Der Hessische Beauftragte für Datenschutz und Informationsfreiheit
-Postfach 3163
-65021 Wiesbaden
+Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)
+Promenade 18
+91522 Ansbach
 Deutschland
-https://datenschutz.hessen.de
+https://www.lda.bayern.de
 ```
 
 ## 11. Datensicherheit
