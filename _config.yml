@@ -1,5 +1,6 @@
 #page title
-page_title                                :                                 # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Hörspieler                                # Set explicitly: left empty, the <title> is filled by JavaScript from the iTunes API,
+                                                                                      # so crawlers that don't run JS see an empty title.
 
 # App Info
 ios_app_id                                : 6444850972                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -7,15 +8,23 @@ ios_app_country                           : de                                  
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+presskit_download_link                    :                                           # Deliberately empty: the press page is already in the nav via _pages/press.md.
+                                                                                      # Setting this too would duplicate the nav entry.
+presskit_bundle                           : /assets/presskit/Hoerspieler-Presskit.zip # The one-click asset bundle, linked from the press page.
+                                                                                      # Rebuild with tools/build-presskit.sh whenever an asset changes.
 
 app_icon                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Hörspieler ist der perfekte Begleiter für kleine Hörspiel-Fans
+app_description                           : Der Hörspiel-Player für Kinder — Apple Music, offline hören und Einschlaf-Timer
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+# Site metadata                           Used for <html lang>, canonical URLs and social-share cards.
+url                                       : https://hoerspieler.peterkurzok.de         # Jekyll's own key — `absolute_url` needs it for og:image and canonical.
+site_lang                                 : de
+og_locale                                 : de_DE
+social_share_image                        : /assets/Promo.png                          # 2048×1024, safe for og:image and Twitter's summary_large_image.
 
 
 
@@ -34,38 +43,60 @@ mastodon_link                             : https://kind.social/@filmaniac
 
 
 # Feature List                            Edit, add or remove features to be presented.
+#                                         Order matters: the first rows are the ones a parent reads.
+#                                         Icons must exist in Font Awesome 5.6.3 Free (see _includes/head.html).
 features                                  :
 
-  - title                                 : Favoriten
-    description                           : Merke dir deine Lieblingshörspiele für einen schnellen Zugriff.
-    fontawesome_icon_name                 : heart
+  - title                                 : Offline hören
+    description                           : Kein Netz? Kein Problem. Was über Apple Music aufs Gerät geladen wurde, zeigt und spielt Hörspieler auch im Funkloch — im Auto, im Zug, im Urlaub.
+    fontawesome_icon_name                 : wifi
+
+  - title                                 : Einschlaf-Timer
+    description                           : Von fünf Minuten bis zu einer Stunde, oder einfach bis zum Ende der Folge. Das Hörspiel hört von selbst auf — niemand muss mehr aufstehen.
+    fontawesome_icon_name                 : moon
 
   - title                                 : Apple Music Anbindung
-    description                           : Greife auf den größten Streaming Katalog zu und spiele ALLE Hörspiele oder Musik im Angebot von Apple.
+    description                           : Greife auf den größten Streaming-Katalog zu und spiele alle Hörspiele, Hörbücher und Musik im Angebot von Apple.
     fontawesome_icon_name                 : music
-    
-  - title                                 : Sprachausgabe
-    description                           : Du kannst noch nicht Lesen? Kein Problem! Lasse dir die Titel von Interpreten und Folgen vorlesen.
-    fontawesome_icon_name                 : comment
+
+  - title                                 : Favoriten
+    description                           : Merke dir deine Lieblingshörspiele für einen schnellen Zugriff — als große, bunte Kacheln zum Antippen.
+    fontawesome_icon_name                 : heart
 
   - title                                 : Kinderleichte Bedienung
-    description                           : Große Bedienelemente, Auswahl der Alben mit Cover Flow oder Kachelansicht.
+    description                           : Große Bedienelemente, keine Menüs, nichts zum Verirren. Auswahl der Alben mit Cover Flow oder Kachelansicht.
     fontawesome_icon_name                 : child
 
-  - title                                 : Zuletzt gehörte Alben speichern
-    description                           : Höre da weiter, wo du aufgehört hast.
+  - title                                 : Sprachausgabe
+    description                           : Du kannst noch nicht lesen? Kein Problem! Lasse dir die Titel von Interpreten und Folgen vorlesen.
+    fontawesome_icon_name                 : comment
+
+  - title                                 : Weiterhören, wo du warst
+    description                           : Hörspieler merkt sich die Wiedergabeposition der zuletzt gehörten Alben — auf die Sekunde genau.
     fontawesome_icon_name                 : play-circle
-  
+
+  - title                                 : CarPlay
+    description                           : Weiterhören im Auto, ohne sich nach hinten umzudrehen. Zuletzt Gehörtes und Favoriten direkt auf dem Display.
+    fontawesome_icon_name                 : car
+
+  - title                                 : Auf allen Geräten synchron
+    description                           : Favoriten und Wiedergabepositionen wandern über deine private iCloud mit — vom iPhone aufs iPad und zurück.
+    fontawesome_icon_name                 : cloud
+
+  - title                                 : Siri, Kurzbefehle und Spotlight
+    description                           : Sag einfach „Spiele Benjamin Blümchen in Hörspieler“. Favoriten findest du auch direkt über die Spotlight-Suche (ab iOS 18).
+    fontawesome_icon_name                 : microphone
+
+  - title                                 : Elternbereich
+    description                           : Passe Hörspieler an die Bedürfnisse deiner Kleinen an, z. B. durch Deaktivierung der Suchfunktion. Hinter einer kleinen Rechenaufgabe, die Kinder nicht lösen.
+    fontawesome_icon_name                 : lock
+
   - title                                 : AirPlay und Bluetooth Unterstützung
     description                           : Du hast einen externen Lautsprecher? Großartig! Hörspieler spielt auch direkt auf die Ohren oder auf den großen Boxen.
     fontawesome_icon_name                 : bullhorn
 
-  - title                                 : Elternbereich
-    description                           : Passe Hörspieler an die Bedürfnisse deiner Kleinen an. Z.B. durch Deaktivierung der Suchfunktion. Nur das Abspielen, was Eltern freigeben.
-    fontawesome_icon_name                 : lock
-
   - title                                 : Dark und Lightmode
-    description                           : Ob du tagsüber oder abends im Bett hörst, Hörspieler kleidet sich im passenden Gewandt.
+    description                           : Ob du tagsüber oder abends im Bett hörst, Hörspieler kleidet sich im passenden Gewand.
     fontawesome_icon_name                 : lightbulb
 
 
