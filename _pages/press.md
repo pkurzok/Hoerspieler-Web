@@ -10,7 +10,7 @@ include_in_header: true
 Hier liegt alles, was für eine Berichterstattung über **Hörspieler** gebraucht wird: Fakten,
 Textbausteine zum Übernehmen, das App-Icon, die Promo-Grafik und Screenshots von iPhone, iPad und
 CarPlay. Alle Materialien dürfen redaktionell frei verwendet werden — die Bedingungen stehen
-[weiter unten](#nutzung-der-materialien).
+[weiter unten](#nutzung-der-materialien){:target="_self"}.
 
 [⬇ Komplette Pressemappe herunterladen (ZIP)]({{ site.presskit_bundle | relative_url }})
 {: .presskitDownload}
