@@ -6,7 +6,7 @@ zugreift. Große Kacheln statt Listen, vorgelesene Titel für Kinder, die noch n
 lesen können, ein Einschlaf-Timer und Offline-Wiedergabe für unterwegs.
 
 Diese Mappe enthält alles, was für eine Berichterstattung gebraucht wird. Die aktuelle
-Fassung steht immer unter https://hoerspieler.peterkurzok.de/press/
+Fassung steht immer unter https://hoerspieler.app/press/
 
 
 AUF EINEN BLICK
@@ -29,8 +29,8 @@ Altersfreigabe        4+
 App Store             https://apps.apple.com/de/app/id6444850972
 App Store ID          6444850972
 Bundle-ID             de.peterkurzok.KidsMusic
-Website               https://hoerspieler.peterkurzok.de
-Datenschutzerklärung  https://hoerspieler.peterkurzok.de/privacypolicy/
+Website               https://hoerspieler.app
+Datenschutzerklärung  https://hoerspieler.app/privacypolicy/
 Kontakt               hoerspieler@peterkurzok.de
 
 
