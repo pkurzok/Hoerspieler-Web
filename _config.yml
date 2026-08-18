@@ -179,6 +179,11 @@ exclude:
   - README.md
   - CNAME
 
+# Jekyll drops every dot-prefixed path from _site by default, so .well-known/ would never
+# be built. Listing it here is what puts the app-ownership proof on the live domain.
+include:
+  - .well-known
+
 collections:
   pages:
     output: true
