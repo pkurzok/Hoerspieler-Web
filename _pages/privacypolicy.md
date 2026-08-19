@@ -4,7 +4,7 @@ title: Datenschutzerklärung
 include_in_header: false
 ---
 
-**Stand:** 4. August 2026
+**Stand:** 19. August 2026
 
 Diese Erklärung beschreibt, welche personenbezogenen Daten bei der Nutzung dieser Website
 (**Teil A**) und der App **Hörspieler** (**Teil B**) verarbeitet werden, zu welchen Zwecken das
@@ -233,6 +233,46 @@ gespeichert. Der Anbieter erhält sie nicht.
 
 *Rechtsgrundlage:* Art. 6 Abs. 1 lit. b DSGVO.
 
+### 5.9 Hinweis auf andere Apps (Kickstart Exchange)
+
+*Zweck:* In der kostenlosen Version wird am unteren Ende der Übersicht **eine einzelne Karte**
+angezeigt, die auf eine andere App unabhängiger Entwickler hinweist. Sie hilft, die Entwicklung
+dieser App zu finanzieren.
+
+**Wer sie sieht:** ausschließlich Nutzerinnen und Nutzer **ohne** Pro-Version. Wer Pro gekauft hat
+oder aus einem früheren Kauf über Bestandsschutz verfügt, sieht keine Karte — und das Gerät nimmt
+dann **überhaupt keine Verbindung** zu diesem Dienst auf.
+
+*Verarbeitete Daten:* der Schlüssel dieser App beim Dienst, die App-Kennung (Bundle-ID), Plattform,
+App- und Build-Version, die Version des eingebundenen Bausteins sowie — nur in den über den App
+Store ausgelieferten Fassungen — der von Apple signierte Kaufnachweis **der App selbst** (er belegt
+dem Dienst, dass die anfragende App echt ist; er betrifft die App, nicht Ihre Käufe). Beim Abruf
+einer Karte kommt das **Land Ihres App-Store-Kontos** hinzu, etwa „Deutschland", damit nur Apps
+gezeigt werden, die dort erhältlich sind. Ob eine Karte gesehen oder angetippt wurde, wird als Zahl
+zurückgemeldet.
+
+**Nicht übermittelt werden:** keine Werbe-ID, keine Nutzer- oder Gerätekennung, kein Standort und
+keine Inhalte — weder Suchbegriffe noch die Namen der Interpreten oder Alben, die Sie hören. Der
+Dienst vermittelt zwischen **Apps**, nicht zwischen Personen; es entsteht kein Profil, und es findet
+kein anbieterübergreifendes Tracking statt. Deshalb fragt die App auch nicht nach einer
+Tracking-Erlaubnis: es gibt nichts zu verfolgen.
+
+*Empfänger:* Hudson Heavy Industries Ltd, 37 Great Pulteney Street, Bath, BA2 4DA, Vereinigtes
+Königreich (Handelsregisternummer 11883499), Betreiberin von *Kickstart Exchange*
+(`api.kickstart.tools`). Die Auslieferung erfolgt nach Angabe des Anbieters über das Netz von
+Cloudflare.
+
+*Rechtsgrundlage:* Art. 6 Abs. 1 lit. f DSGVO — berechtigtes Interesse. Die Abwägung: Der Anbieter
+hat ein berechtigtes Interesse daran, die kostenlose Version zu finanzieren, ohne dafür Daten über
+die Nutzerinnen und Nutzer zu erheben. Dem stehen keine überwiegenden Interessen entgegen, weil
+ausschließlich Angaben über die **App** übermittelt werden und keine einzige Angabe über die Person
+davor — keine Kennung, kein Standort, keine Inhalte —, weil daraus kein Profil entstehen kann und
+weil die Anzeige durch den Kauf der Pro-Version dauerhaft entfällt.
+
+**Abschalten:** Die Pro-Version entfernt die Karte vollständig; ab dann werden keine Daten mehr an
+diesen Dienst übermittelt. Ein Widerspruch nach Art. 21 DSGVO ist unabhängig davon jederzeit unter
+der in Abschnitt 1 genannten Adresse möglich.
+
 ---
 
 ## 6. Empfängerübersicht
@@ -250,10 +290,14 @@ gespeichert. Der Anbieter erhält sie nicht.
 | Google LLC (USA) | App | vorzulesender Titel, Sprache, Stimmgeschlecht | Sprachausgabe (abschaltbar) | Art. 6 (1) b |
 | Mixpanel, Inc. (EU-Rechenzentrum) | App | Ereignisnamen, technische Merkmale, Vendor-ID | Nutzungsstatistik (widersprechbar) | Art. 6 (1) f |
 | Functional Software, Inc. – Sentry (EU-Region) | App | Absturz- und Diagnosedaten | Stabilität (widersprechbar) | Art. 6 (1) f |
+| Hudson Heavy Industries Ltd – Kickstart Exchange (Vereinigtes Königreich) | App | App-Kennung, Versionen, Kaufnachweis der App, Land des App-Store-Kontos, Einblendungs- und Klickzahlen | Hinweis auf andere Apps (entfällt mit Pro) | Art. 6 (1) f |
 
-Eine Weitergabe zu Werbezwecken findet nicht statt. Es werden keine Daten verkauft. Es findet kein
-anbieterübergreifendes Tracking statt; die Gerätekennung wird nicht mit Daten Dritter
-zusammengeführt.
+**Es werden keine Daten über Sie zu Werbezwecken weitergegeben.** Seit Version 1.5.1 zeigt die
+kostenlose Version zwar einen Hinweis auf eine andere App (Abschnitt 5.9) — dafür werden aber
+ausschließlich Angaben über **diese App** übermittelt und keine einzige über die Person, die sie
+benutzt. Es werden keine Daten verkauft. Es findet kein anbieterübergreifendes Tracking statt; die
+Gerätekennung aus Abschnitt 5.6 wird nicht mit Daten Dritter zusammengeführt und erreicht den
+Werbedienst nicht.
 
 ## 7. Übermittlung in Drittländer
 
@@ -268,6 +312,11 @@ Art. 44 ff. DSGVO:
   Standardvertragsklauseln.
 * **Sentry:** Die Daten dieser App werden in der **EU-Region** (Rechenzentrum in Deutschland)
   verarbeitet. Für unterstützende Zugriffe aus den USA bestehen Standardvertragsklauseln.
+* **Kickstart Exchange** hat seinen Sitz im **Vereinigten Königreich**. Für das Vereinigte
+  Königreich hat die Europäische Kommission einen **Angemessenheitsbeschluss** nach Art. 45 DSGVO
+  erlassen; die Übermittlung bedarf daher keiner zusätzlichen Garantien. Die Auslieferung erfolgt
+  nach Angabe des Anbieters über das Netz von Cloudflare; in welchem Land die Daten dabei gespeichert
+  werden, gibt der Anbieter nicht an.
 
 In den USA besteht nach derzeitigem Stand kein Schutzniveau, das dem der EU vollständig entspricht;
 insbesondere lässt sich ein Zugriff durch US-Behörden nicht in jedem Fall ausschließen. Die
@@ -287,6 +336,10 @@ vermeiden (Abschnitt 5.5).
   Nutzungsverläufen über mehrere App-Versionen hinweg erforderlich ist, und anschließend von
   Mixpanel automatisch gelöscht. Maßgeblich ist die im Mixpanel-Projekt eingestellte
   Aufbewahrungsfrist.
+* **Angaben zum Hinweis auf andere Apps** (Abschnitt 5.9) werden vom Anbieter nach eigener Angabe
+  rund **30 Tage** aufbewahrt. Tagesbezogene Summen je App-Paar (App-Kennungen, Datum, Plattform,
+  Land, Anzahl der Einblendungen und Klicks) werden ohne feste Löschfrist für Auswertungen
+  aufbewahrt; sie enthalten keinen Bezug zu einer Person.
 * **Server-Logs** von Cloudflare und GitHub werden nach den dortigen, kurzen Fristen gelöscht.
 
 Die jeweils aktuell eingestellten Fristen teilen wir Ihnen auf Anfrage unter der in Abschnitt 1
@@ -303,13 +356,19 @@ Diese App richtet sich an Kinder. Deshalb gilt hier besondere Zurückhaltung:
 * Es gibt **kein Benutzerkonto**, keine Registrierung und keine Anmeldung.
 * Es werden **keine Kontaktdaten** erhoben — weder Name noch E-Mail-Adresse, Telefonnummer oder
   Anschrift.
-* Es gibt **keine Werbung**, keine Werbe-IDs und kein anbieterübergreifendes Tracking.
+* In der kostenlosen Version wird **eine einzelne Karte** angezeigt, die auf eine andere App
+  hinweist (Abschnitt 5.9). Sie steht am unteren Ende der Übersicht, unterbricht nichts, blinkt
+  nicht, öffnet von sich aus nichts und ist nur zu sehen, wenn man bis dorthin scrollt. Es gibt
+  **keine Werbe-IDs**, kein Profil und kein anbieterübergreifendes Tracking — an den Dienst wird
+  keine einzige Angabe über das Kind übermittelt. Ein Antippen führt in den App Store, wo ein Kauf
+  wie immer die Bestätigung über das Apple-Konto erfordert. Mit der **Pro-Version entfällt die
+  Karte vollständig**.
 * Es gibt keine Chat-, Kommentar- oder sonstige Kommunikationsfunktion.
 * Die Einstellungen der App sind durch eine **Rechenaufgabe** geschützt, damit Kinder sie nicht
   selbst verändern können. Käufe erfordern zusätzlich die Bestätigung über das Apple-Konto.
 
-Die Entscheidung über die Nutzung der App und über die in den Abschnitten 5.6 und 5.7 beschriebenen
-Verarbeitungen trifft der Inhaber der elterlichen Verantwortung (vgl. Art. 8 DSGVO). Wenden Sie
+Die Entscheidung über die Nutzung der App und über die in den Abschnitten 5.6, 5.7 und 5.9
+beschriebenen Verarbeitungen trifft der Inhaber der elterlichen Verantwortung (vgl. Art. 8 DSGVO). Wenden Sie
 sich bitte an die in Abschnitt 1 genannte Adresse, wenn Sie die Löschung von Daten Ihres Kindes
 verlangen möchten.
 
