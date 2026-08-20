@@ -23,7 +23,7 @@ Welserstraße 3
 Deutschland
 ```
 
-E-Mail: [hoerspieler@peterkurzok.de](mailto:hoerspieler@peterkurzok.de)
+E-Mail: <!--email_off-->[hoerspieler@peterkurzok.de](mailto:hoerspieler@peterkurzok.de)<!--/email_off-->
 
 Ein Datenschutzbeauftragter ist nicht bestellt, da die gesetzlichen Voraussetzungen dafür nicht
 vorliegen. Bitte richten Sie alle Anliegen zum Datenschutz an die oben genannte Adresse.
@@ -396,7 +396,7 @@ Für die App können Sie diesen Widerspruch unmittelbar selbst ausüben, ohne un
 > — dort *Datenanalyse erlauben* bzw. *Absturzberichte senden* ausschalten.
 
 Im Übrigen genügt eine formlose Nachricht an
-[hoerspieler@peterkurzok.de](mailto:hoerspieler@peterkurzok.de). Zur Bearbeitung Ihres Anliegens
+<!--email_off-->[hoerspieler@peterkurzok.de](mailto:hoerspieler@peterkurzok.de)<!--/email_off-->. Zur Bearbeitung Ihres Anliegens
 benötigen wir keine Anmeldedaten; teilen Sie uns bitte mit, welche Verarbeitung Sie betrifft.
 
 ### Beschwerderecht nach Art. 77 DSGVO

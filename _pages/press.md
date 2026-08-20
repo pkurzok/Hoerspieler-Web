@@ -23,23 +23,23 @@ dieses Factsheet als Textdatei.
 | | |
 | --- | --- |
 | **App-Name** | Hörspieler: Kinder Hörspiele |
-| **Untertitel** | Hörbuch Player für Apple Music |
+| **Untertitel** | Der Hörbuch Player für Kinder |
 | **Im englischen App Store** | PlayTales: Audiobooks for Kids |
 | **Entwickler** | Peter Kurzok, Gersfeld, Deutschland |
 | **Kategorie** | Unterhaltung (sekundär: Musik) |
 | **Preis** | Gratis. Optionaler einmaliger In-App-Kauf „Hörspieler Pro“ für 2,99 € — kein Abo, mit Familienfreigabe |
 | **Voraussetzung** | Ein Apple-Music-Abo |
-| **Aktuelle Version** | 1.5.0 |
+| **Aktuelle Version** | 1.5.1 |
 | **Erstveröffentlichung** | 4. Januar 2024 |
 | **Plattformen** | iPhone, iPad, CarPlay |
-| **Systemvoraussetzung** | iOS 17.0 oder neuer |
+| **Systemvoraussetzung** | iOS 18.0 oder neuer (Version 1.5.0 lief noch ab iOS 17.0) |
 | **Sprachen** | Deutsch, Englisch |
 | **Altersfreigabe** | 4+ |
 | **App Store** | [apps.apple.com/de/app/id6444850972](https://apps.apple.com/de/app/id6444850972) |
 | **App Store ID** | 6444850972 |
 | **Bundle-ID** | de.peterkurzok.KidsMusic |
 | **Datenschutz** | [Datenschutzerklärung]({{ '/privacypolicy/' | relative_url }}) |
-| **Kontakt** | [hoerspieler@peterkurzok.de](mailto:hoerspieler@peterkurzok.de) |
+| **Kontakt** | <!--email_off-->[hoerspieler@peterkurzok.de](mailto:hoerspieler@peterkurzok.de)<!--/email_off--> |
 
 ## Beschreibung zum Übernehmen
 
@@ -65,6 +65,17 @@ dieses Factsheet als Textdatei.
 > iCloud der Familie. Eltern schützen die Einstellungen hinter einer Rechenaufgabe, die kleine
 > Kinder nicht lösen. Entwickelt hat die App Peter Kurzok, Vater von drei Kindern, ursprünglich für
 > die eigene Familie.
+
+## Neu in Version 1.5.1
+
+* **Ein Hinweis auf eine andere App** — am unteren Ende der Bibliothek zeigt die kostenlose Fassung
+  eine einzelne Karte, die auf eine App anderer unabhängiger Entwickler hinweist. Sie steht unter
+  allem anderen, unterbricht nichts und ist nur zu sehen, wenn man bis dorthin scrollt. An den
+  Vermittlungsdienst geht keine Nutzer- oder Gerätekennung und keine Werbe-ID; es entsteht kein
+  Profil. „Hörspieler Pro“ entfernt die Karte vollständig. Was dabei übertragen wird, steht in der
+  [Datenschutzerklärung]({{ '/privacypolicy/' | relative_url }}).
+* **iOS 18 erforderlich** — 1.5.1 setzt iOS 18 voraus. Geräte auf iOS 17 behalten Version 1.5.0 mit
+  vollem Funktionsumfang; sie erhalten lediglich keine weiteren Aktualisierungen.
 
 ## Neu in Version 1.5.0
 
@@ -93,9 +104,10 @@ dieses Factsheet als Textdatei.
 * Elternbereich hinter einer Rechenaufgabe, u. a. zum Abschalten der Suche
 * AirPlay und Bluetooth, Dark und Light Mode, VoiceOver und Dynamic Type
 
-**Kostenlos gegenüber „Hörspieler Pro“:** Die kostenlose Fassung erlaubt drei Favoriten. Der
-einmalige In-App-Kauf hebt das Limit auf, schaltet CarPlay frei und filtert die Bibliothek offline
-auf das, was wirklich abspielbar ist. Es gibt kein Abo und keine Werbung.
+**Kostenlos gegenüber „Hörspieler Pro“:** Die kostenlose Fassung erlaubt drei Favoriten und zeigt
+am Fuß der Bibliothek eine Hinweiskarte auf eine andere App. Der einmalige In-App-Kauf hebt das
+Limit auf, schaltet CarPlay frei, filtert die Bibliothek offline auf das, was wirklich abspielbar
+ist, und entfernt die Hinweiskarte. Es gibt kein Abo.
 
 ## App Icon
 
@@ -189,4 +201,4 @@ von Apple Inc. Hörspieler ist ein unabhängiges Projekt und steht in keiner Ver
 dem Medium genügt, dann kommt ein Promo-Code zurück. Für Rückfragen, ein Interview oder
 Hintergründe zur Entstehung bin ich unter derselben Adresse erreichbar:
 
-[hoerspieler@peterkurzok.de](mailto:hoerspieler@peterkurzok.de)
+<!--email_off-->[hoerspieler@peterkurzok.de](mailto:hoerspieler@peterkurzok.de)<!--/email_off-->
