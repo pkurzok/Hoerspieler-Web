@@ -64,59 +64,43 @@ mastodon_link                             : https://kind.social/@filmaniac
 # Feature List                            Edit, add or remove features to be presented.
 #                                         Order matters: the first rows are the ones a parent reads.
 #                                         Icons must exist in Font Awesome 5.6.3 Free (see _includes/head.html).
+#                                         Written as benefits: the title says what a family gets, the
+#                                         description names the feature that delivers it. Say "mit Pro"
+#                                         wherever a benefit depends on it (CarPlay, the offline view).
+#                                         No ": " or " #" inside a value — YAML would split or truncate it.
 features                                  :
 
-  - title                                 : Offline hören
-    description                           : Kein Netz? Kein Problem. Was über Apple Music aufs Gerät geladen wurde, zeigt und spielt Hörspieler auch im Funkloch — im Auto, im Zug, im Urlaub.
-    fontawesome_icon_name                 : wifi
-
-  - title                                 : Einschlaf-Timer
-    description                           : Von fünf Minuten bis zu einer Stunde, oder einfach bis zum Ende der Folge. Das Hörspiel hört von selbst auf — niemand muss mehr aufstehen.
-    fontawesome_icon_name                 : moon
-
-  - title                                 : Apple Music Anbindung
-    description                           : Greife auf den größten Streaming-Katalog zu und spiele alle Hörspiele, Hörbücher und Musik im Angebot von Apple.
-    fontawesome_icon_name                 : music
-
-  - title                                 : Favoriten
-    description                           : Merke dir deine Lieblingshörspiele für einen schnellen Zugriff — als große, bunte Kacheln zum Antippen.
-    fontawesome_icon_name                 : heart
-
-  - title                                 : Kinderleichte Bedienung
-    description                           : Große Bedienelemente, keine Menüs, nichts zum Verirren. Auswahl der Alben mit Cover Flow oder Kachelansicht.
-    fontawesome_icon_name                 : child
-
-  - title                                 : Sprachausgabe
-    description                           : Du kannst noch nicht lesen? Kein Problem! Lasse dir die Titel von Interpreten und Folgen vorlesen.
-    fontawesome_icon_name                 : comment
-
-  - title                                 : Weiterhören, wo du warst
-    description                           : Hörspieler merkt sich die Wiedergabeposition der zuletzt gehörten Alben — auf die Sekunde genau.
-    fontawesome_icon_name                 : play-circle
-
-  - title                                 : CarPlay
-    description                           : Weiterhören im Auto, ohne sich nach hinten umzudrehen. Zuletzt Gehörtes und Favoriten direkt auf dem Display.
+  - title                                 : Ruhe auf der Rückbank
+    description                           : Kein Netz im Auto? Was über Apple Music aufs Gerät geladen ist, zeigt und spielt Hörspieler trotzdem — und Favoriten und zuletzt Gehörtes stehen direkt auf dem CarPlay-Display. Offline-Ansicht und CarPlay gibt es mit Pro.
     fontawesome_icon_name                 : car
 
-  - title                                 : Auf allen Geräten synchron
-    description                           : Favoriten und Wiedergabepositionen wandern über deine private iCloud mit — vom iPhone aufs iPad und zurück.
-    fontawesome_icon_name                 : cloud
+  - title                                 : Einschlafen, ohne dass jemand aufstehen muss
+    description                           : Der Einschlaf-Timer hält das Hörspiel nach fünf Minuten bis zu einer Stunde an — oder genau am Ende der Folge.
+    fontawesome_icon_name                 : moon
 
-  - title                                 : Siri, Kurzbefehle und Spotlight
-    description                           : Sag einfach „Spiele Benjamin Blümchen in Hörspieler“. Favoriten findest du auch direkt über die Spotlight-Suche (ab iOS 18).
-    fontawesome_icon_name                 : microphone
+  - title                                 : Du bestimmst, wie lange gehört wird
+    description                           : Lege ein Tages- oder Wochenlimit fest, geschützt mit deinem PIN. Für lange Fahrten gibt es „noch 10 Minuten“ oder „heute ohne Limit“. Ohne Aufpreis, und gezählt wird nur auf dem Gerät.
+    fontawesome_icon_name                 : hourglass-half
 
-  - title                                 : Elternbereich
-    description                           : Passe Hörspieler an die Bedürfnisse deiner Kleinen an, z. B. durch Deaktivierung der Suchfunktion. Hinter einer kleinen Rechenaufgabe, die Kinder nicht lösen.
+  - title                                 : Kinder hören selbst — auch bevor sie lesen können
+    description                           : Große, bunte Cover statt Menüs, und auf Wunsch liest Hörspieler die Titel vor. So findet dein Kind seine Lieblingsfolge ohne Hilfe.
+    fontawesome_icon_name                 : child
+
+  - title                                 : Genau da weiterhören, wo aufgehört wurde
+    description                           : Hörspieler merkt sich die Stelle auf die Sekunde — und nimmt sie über deine private iCloud mit, vom iPhone aufs iPad und zurück.
+    fontawesome_icon_name                 : play-circle
+
+  - title                                 : Nichts, wo sich Kinder verirren
+    description                           : Die Suche lässt sich ganz abschalten, und die Einstellungen schützt dein PIN oder eine Rechenaufgabe, die Kinder nicht lösen.
     fontawesome_icon_name                 : lock
 
-  - title                                 : AirPlay und Bluetooth Unterstützung
-    description                           : Du hast einen externen Lautsprecher? Großartig! Hörspieler spielt auch direkt auf die Ohren oder auf den großen Boxen.
-    fontawesome_icon_name                 : bullhorn
+  - title                                 : Alle Hörspiele aus deinem Apple Music
+    description                           : Keine zweite Bibliothek und kein Einzelkauf von Folgen. Hörspieler spielt die Hörspiele und Hörbücher von Apple Music — du brauchst nur dein Abo.
+    fontawesome_icon_name                 : music
 
-  - title                                 : Dark und Lightmode
-    description                           : Ob du tagsüber oder abends im Bett hörst, Hörspieler kleidet sich im passenden Gewand.
-    fontawesome_icon_name                 : lightbulb
+  - title                                 : „Spiele Benjamin Blümchen“ — und es läuft
+    description                           : Siri und Kurzbefehle starten Hörspiele auf Zuruf. Favoriten findest du auch direkt über die Spotlight-Suche (ab iOS 18).
+    fontawesome_icon_name                 : microphone
 
 
 # Theme Settings
