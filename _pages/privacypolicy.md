@@ -4,7 +4,7 @@ title: Datenschutzerklärung
 include_in_header: false
 ---
 
-**Stand:** 19. August 2026
+**Stand:** 13. September 2026
 
 Diese Erklärung beschreibt, welche personenbezogenen Daten bei der Nutzung dieser Website
 (**Teil A**) und der App **Hörspieler** (**Teil B**) verarbeitet werden, zu welchen Zwecken das
@@ -108,6 +108,11 @@ Anbieter übermittelt:
 * Favoriten (gemerkte Interpreten) und zuletzt gehörte Alben samt Wiedergabeposition,
 * sämtliche Einstellungen (Suche, Filter, Sprachausgabe, Demomodus, Ein- und Ausschalter für
   Statistik und Absturzberichte),
+* die Kindersicherung: das eingestellte Tages- und Wochenlimit, die bereits gehörte Zeit des
+  laufenden Tages und der laufenden Woche, eine gegebenenfalls erteilte Freigabe (längstens bis
+  Mitternacht) sowie — falls gesetzt — der Eltern-PIN. Der PIN wird **nicht im Klartext** gespeichert, sondern
+  nur als kryptografische Prüfsumme mit Zufallswert (SHA-256 mit Salt); die eingegebenen Ziffern
+  verlassen das Gerät zu keiner Zeit und werden auch lokal nicht aufbewahrt,
 * der Zwischenspeicher für Albumcover und für erzeugte Sprachausgabe-Dateien,
 * der lokale Suchindex (Spotlight) sowie Hinweise der App.
 
@@ -178,6 +183,12 @@ Verbesserung darauf auszurichten.
 verwendet wurde, ob ein Filter aktiv ist, die Anzahl der Favoriten), die ursprünglich gekaufte
 App-Version sowie eine **gerätegebundene Kennung** (die von Apple vergebene *Vendor-ID*), die die
 Ereignisse eines Geräts zusammenführt.
+
+Zur Kindersicherung wird ausschließlich übermittelt, **ob** ein Tages- oder Wochenlimit ein- oder
+ausgeschaltet wurde, **welches** der beiden es war, ob ein PIN gesetzt ist, und dass eine Freigabe
+genutzt wurde — ohne Angabe, ob für den Rest des Tages oder für einige Minuten. **Nicht übermittelt** werden die eingestellte Dauer, die tatsächlich
+gehörte Zeit und der PIN selbst — wie lange ein Kind hören darf, ist eine Erziehungsentscheidung
+und keine technische Angabe über die App.
 
 **Diese Kennung ist pseudonym, nicht anonym.** Sie ist keinem Namen, keiner E-Mail-Adresse und
 keinem Konto zugeordnet — die App kennt nichts dergleichen —, bleibt aber eine personenbezogene
@@ -364,8 +375,12 @@ Diese App richtet sich an Kinder. Deshalb gilt hier besondere Zurückhaltung:
   wie immer die Bestätigung über das Apple-Konto erfordert. Mit der **Pro-Version entfällt die
   Karte vollständig**.
 * Es gibt keine Chat-, Kommentar- oder sonstige Kommunikationsfunktion.
-* Die Einstellungen der App sind durch eine **Rechenaufgabe** geschützt, damit Kinder sie nicht
-  selbst verändern können. Käufe erfordern zusätzlich die Bestätigung über das Apple-Konto.
+* Die Einstellungen der App sind durch eine **Rechenaufgabe** geschützt — oder, wenn Sie einen
+  eigenen **PIN** festgelegt haben, durch diesen —, damit Kinder sie nicht selbst verändern
+  können. Käufe erfordern zusätzlich die Bestätigung über das Apple-Konto.
+* Sie können eine **tägliche und eine wöchentliche Hörzeit** festlegen. Die dafür nötige Zählung
+  findet vollständig auf dem Gerät statt; weder die eingestellte Dauer noch die gehörte Zeit werden
+  an den Anbieter oder an Dritte übermittelt.
 
 Die Entscheidung über die Nutzung der App und über die in den Abschnitten 5.6, 5.7 und 5.9
 beschriebenen Verarbeitungen trifft der Inhaber der elterlichen Verantwortung (vgl. Art. 8 DSGVO). Wenden Sie
