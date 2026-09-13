@@ -103,7 +103,7 @@ features                                  :
     fontawesome_icon_name                 : cloud
 
   - title                                 : Siri, Kurzbefehle und Spotlight
-    description                           : Sag einfach „Spiele Benjamin Blümchen in Hörspieler“. Favoriten findest du auch direkt über die Spotlight-Suche (ab iOS 18).
+    description                           : Sag einfach „Spiele Benjamin Blümchen in Hörspieler“. Favoriten findest du auch direkt über die Spotlight-Suche.
     fontawesome_icon_name                 : microphone
 
   - title                                 : Elternbereich
