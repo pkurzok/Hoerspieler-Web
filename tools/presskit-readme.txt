@@ -3,7 +3,8 @@ HÖRSPIELER — PRESSEMAPPE
 
 Hörspieler ist ein Hörspiel-Player für Kinder, der auf den Katalog von Apple Music
 zugreift. Große Kacheln statt Listen, vorgelesene Titel für Kinder, die noch nicht
-lesen können, ein Einschlaf-Timer und Offline-Wiedergabe für unterwegs.
+lesen können, ein Einschlaf-Timer, Offline-Wiedergabe für unterwegs und Hörzeit-Limits
+für Eltern.
 
 Diese Mappe enthält alles, was für eine Berichterstattung gebraucht wird. Die aktuelle
 Fassung steht immer unter https://hoerspieler.app/press/
@@ -13,17 +14,17 @@ AUF EINEN BLICK
 ---------------
 
 App-Name (App Store)  Hörspieler: Kinder Hörspiele
-Untertitel            Hörbuch Player für Apple Music
+Untertitel            Hörbuch Player, offline hören
 Englischer Name       PlayTales: Audiobooks for Kids
 Entwickler            Peter Kurzok, Gersfeld, Deutschland
 Kategorie             Unterhaltung (sekundär: Musik)
 Preis                 Gratis. Optionaler einmaliger In-App-Kauf „Hörspieler Pro“
                       für 2,99 € / $2.99 / £2.99 — kein Abo, mit Familienfreigabe.
 Voraussetzung         Ein Apple-Music-Abo. Ohne Abo lässt sich der Katalog nicht abspielen.
-Aktuelle Version      1.5.0
+Aktuelle Version      1.6.0
 Erstveröffentlichung  4. Januar 2024
 Plattformen           iPhone, iPad, CarPlay
-Systemvoraussetzung   iOS 17.0 oder neuer
+Systemvoraussetzung   iOS 18.0 oder neuer (Version 1.5.0 lief noch ab iOS 17.0)
 Sprachen              Deutsch, Englisch
 Altersfreigabe        4+
 App Store             https://apps.apple.com/de/app/id6444850972
@@ -54,9 +55,9 @@ die Kinder direkt antippen; wer noch nicht lesen kann, lässt sich Interpreten u
 Folgen vorlesen. Der Einschlaf-Timer beendet das Hörspiel von selbst, und über
 Apple Music geladene Folgen laufen auch im Funkloch — im Auto, im Zug, im Urlaub.
 Favoriten und Wiedergabepositionen synchronisieren über die private iCloud der
-Familie. Eltern schützen die Einstellungen hinter einer Rechenaufgabe, die kleine
-Kinder nicht lösen. Entwickelt hat die App Peter Kurzok, Vater von drei Kindern,
-ursprünglich für die eigene Familie.
+Familie. Eltern legen fest, wie lange am Tag oder in der Woche gehört wird, und
+schützen die Einstellungen mit einem PIN. Entwickelt hat die App Peter Kurzok, Vater
+von drei Kindern, ursprünglich für die eigene Familie.
 
 
 INHALT DIESER MAPPE
