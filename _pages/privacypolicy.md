@@ -126,9 +126,9 @@ Suchbegriffe, Wiedergabevorgänge, der Status Ihres Abonnements und Coveranfrage
 **Apple** übermittelt.
 
 Damit die App Ihre Favoriten und zuletzt gehörten Alben anzeigen kann, fragt sie deren
-**Katalogkennungen** bei Apple Music ab. Für die Vorschläge im Suchbereich ruft sie außerdem die
-**meistgehörten Alben** der Hörspiel- und Kinder-Genres Ihres Apple-Music-Landes ab (Charts-Abfrage)
-sowie die Künstler, die Apple Music als **ähnlich zu Ihren Favoriten** einstuft; dabei werden die
+**Katalogkennungen** bei Apple Music ab. Für die Vorschläge im Suchbereich sucht sie außerdem im Katalog Ihres
+Apple-Music-Landes nach **bekannten Hörspielserien** (eine feste, für alle Nutzer gleiche Suchanfrage)
+und ruft die Künstler ab, die Apple Music als **ähnlich zu Ihren Favoriten** einstuft; dabei werden die
 Katalogkennungen Ihrer Favoriten an Apple übermittelt. Die Vorschläge werden nur im Arbeitsspeicher
 der App gehalten und erreichen weder uns noch einen Analysedienst.
 
@@ -302,7 +302,7 @@ der in Abschnitt 1 genannten Adresse möglich.
 | Google LLC (USA) | Website | IP-Adresse, User-Agent | Auslieferung von jQuery | Art. 6 (1) f |
 | Fonticons, Inc. (USA) | Website | IP-Adresse, User-Agent | Auslieferung der Symbolschrift | Art. 6 (1) f |
 | Apple Inc. (USA) | Website | IP-Adresse | Abruf der App-Store-Angaben | Art. 6 (1) f |
-| Apple Inc. (USA) | App | Suchbegriffe, Wiedergabe, Abo-Status, Coveranfragen, Katalogkennungen der Favoriten, Charts- und Ähnliche-Künstler-Abfragen | Apple Music / MusicKit | Art. 6 (1) b |
+| Apple Inc. (USA) | App | Suchbegriffe, Wiedergabe, Abo-Status, Coveranfragen, Katalogkennungen der Favoriten, Abfragen für Vorschläge (Hörspielserien, ähnliche Künstler) | Apple Music / MusicKit | Art. 6 (1) b |
 | Apple Inc. (USA) | App | Favoriten, Verlauf, Wiedergabepositionen | Synchronisierung über Ihre private iCloud | Art. 6 (1) b |
 | Apple Inc. (USA) | App | Kaufvorgänge, ursprüngliche App-Version | Käufe, Bestandsschutz | Art. 6 (1) b |
 | Google LLC (USA) | App | vorzulesender Titel, Sprache, Stimmgeschlecht | Sprachausgabe (abschaltbar) | Art. 6 (1) b |
