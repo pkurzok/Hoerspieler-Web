@@ -4,7 +4,7 @@ title: Datenschutzerklärung
 include_in_header: false
 ---
 
-**Stand:** 13. September 2026
+**Stand:** 6. Oktober 2026
 
 Diese Erklärung beschreibt, welche personenbezogenen Daten bei der Nutzung dieser Website
 (**Teil A**) und der App **Hörspieler** (**Teil B**) verarbeitet werden, zu welchen Zwecken das
@@ -124,6 +124,13 @@ Die App greift auf Ihr Apple-Music-Konto zu, um Inhalte zu suchen, abzuspielen u
 darzustellen. Dazu benötigt sie Ihre Freigabe für „Medien & Apple Music“, die iOS separat abfragt.
 Suchbegriffe, Wiedergabevorgänge, der Status Ihres Abonnements und Coveranfragen werden dabei an
 **Apple** übermittelt.
+
+Damit die App Ihre Favoriten und zuletzt gehörten Alben anzeigen kann, fragt sie deren
+**Katalogkennungen** bei Apple Music ab. Für die Vorschläge im Suchbereich sucht sie außerdem im Katalog Ihres
+Apple-Music-Landes nach **bekannten Hörspielserien** (eine feste, für alle Nutzer gleiche Suchanfrage)
+und ruft die Künstler ab, die Apple Music als **ähnlich zu Ihren Favoriten** einstuft; dabei werden die
+Katalogkennungen Ihrer Favoriten an Apple übermittelt. Die Vorschläge werden nur im Arbeitsspeicher
+der App gehalten und erreichen weder uns noch einen Analysedienst.
 
 *Zweck:* Kernfunktion der App.
 *Rechtsgrundlage:* Art. 6 Abs. 1 lit. b DSGVO — Erfüllung des Nutzungsvertrags; ohne diese
@@ -295,7 +302,7 @@ der in Abschnitt 1 genannten Adresse möglich.
 | Google LLC (USA) | Website | IP-Adresse, User-Agent | Auslieferung von jQuery | Art. 6 (1) f |
 | Fonticons, Inc. (USA) | Website | IP-Adresse, User-Agent | Auslieferung der Symbolschrift | Art. 6 (1) f |
 | Apple Inc. (USA) | Website | IP-Adresse | Abruf der App-Store-Angaben | Art. 6 (1) f |
-| Apple Inc. (USA) | App | Suchbegriffe, Wiedergabe, Abo-Status, Coveranfragen | Apple Music / MusicKit | Art. 6 (1) b |
+| Apple Inc. (USA) | App | Suchbegriffe, Wiedergabe, Abo-Status, Coveranfragen, Katalogkennungen der Favoriten, Abfragen für Vorschläge (Hörspielserien, ähnliche Künstler) | Apple Music / MusicKit | Art. 6 (1) b |
 | Apple Inc. (USA) | App | Favoriten, Verlauf, Wiedergabepositionen | Synchronisierung über Ihre private iCloud | Art. 6 (1) b |
 | Apple Inc. (USA) | App | Kaufvorgänge, ursprüngliche App-Version | Käufe, Bestandsschutz | Art. 6 (1) b |
 | Google LLC (USA) | App | vorzulesender Titel, Sprache, Stimmgeschlecht | Sprachausgabe (abschaltbar) | Art. 6 (1) b |
