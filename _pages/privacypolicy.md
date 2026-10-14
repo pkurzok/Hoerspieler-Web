@@ -4,7 +4,7 @@ title: Datenschutzerklärung
 include_in_header: false
 ---
 
-**Stand:** 6. Oktober 2026
+**Stand:** 14. Oktober 2026
 
 Diese Erklärung beschreibt, welche personenbezogenen Daten bei der Nutzung dieser Website
 (**Teil A**) und der App **Hörspieler** (**Teil B**) verarbeitet werden, zu welchen Zwecken das
@@ -291,6 +291,52 @@ weil die Anzeige durch den Kauf der Pro-Version dauerhaft entfällt.
 diesen Dienst übermittelt. Ein Widerspruch nach Art. 21 DSGVO ist unabhängig davon jederzeit unter
 der in Abschnitt 1 genannten Adresse möglich.
 
+### 5.10 Feature-Ideen (Kickstart Signal)
+
+*Zweck:* Unter *Einstellungen › Feature-Ideen* können Eltern neue Funktionen für Hörspieler
+vorschlagen, für Vorschläge anderer abstimmen und sie kommentieren. Die Einstellungen sind durch die
+**Rechenaufgabe** bzw. Ihren **PIN** geschützt (Abschnitt 9); die Seite richtet sich an Eltern, nicht
+an Kinder. Sie ist ab iOS 18 verfügbar.
+
+**Wer sie erreicht:** nur, wer diese Zeile in den Einstellungen öffnet. Solange das nicht geschieht,
+nimmt das Gerät **keine Verbindung** zu diesem Dienst auf. Beim bloßen Ansehen der Ideen werden nur
+Angaben über die **App** übermittelt, keine über Sie.
+
+*Verarbeitete Daten:* der Schlüssel dieser App beim Dienst, die App-Kennung (Bundle-ID) und die
+Version des eingebundenen Bausteins; der von Apple signierte Kaufnachweis **der App selbst** nur
+dann, wenn der Dienst ihn zur Echtheitsprüfung ausdrücklich anfordert. Erst wenn Sie zum ersten Mal
+abstimmen, eine Idee einreichen oder kommentieren, erzeugt die App eine **zufällige
+Installationskennung**; sie wird mit Ihren Beiträgen übermittelt, damit eine Stimme nicht doppelt
+zählt. Hinzu kommen der **Text, den Sie schreiben** (Titel und Beschreibung einer Idee oder ein
+Kommentar), Ihre Stimmen und die Angabe, **ob die Pro-Version aktiv ist** — damit Vorschläge von
+Pro-Kunden erkennbar sind. Ihre IP-Adresse verwendet der Dienst nach eigener Angabe nur
+vorübergehend zur Missbrauchsabwehr und speichert sie nicht.
+
+**Nicht übermittelt werden:** kein Name, keine E-Mail-Adresse, kein Konto, keine Werbe-ID und keine
+Gerätekennung; die Installationskennung ist zufällig, gilt nur für diese App und wird mit nichts
+zusammengeführt. Ebenfalls nicht übermittelt werden Inhalte, die Sie hören — weder Suchbegriffe
+noch die Namen der Interpreten oder Alben.
+
+**Moderation:** Jede Idee und jeder Kommentar bleibt **privat**, bis wir ihn geprüft und veröffentlicht haben. Wir können Beiträge bearbeiten oder löschen. Veröffentlicht wird nie ein
+Name, weil keiner erhoben wird.
+
+*Empfänger:* Hudson Heavy Industries Ltd, 37 Great Pulteney Street, Bath, BA2 4DA, Vereinigtes
+Königreich (Handelsregisternummer 11883499), Betreiberin von *Kickstart Signal*
+(`api.kickstart.tools`). Die Auslieferung erfolgt nach Angabe des Anbieters über das Netz von
+Cloudflare.
+
+*Rechtsgrundlage:* Art. 6 Abs. 1 lit. f DSGVO für die Anzeige der Ideen — berechtigtes Interesse
+daran, die App an den Wünschen ihrer Nutzerinnen und Nutzer auszurichten. Das Einreichen,
+Abstimmen und Kommentieren ist **freiwillig**: Sie entscheiden selbst, ob und was Sie schreiben.
+
+*Speicherdauer:* Ideen, Kommentare und Stimmen bleiben gespeichert, solange das Ideen-Board besteht.
+Da der Dienst nicht erkennen kann, wer welchen Beitrag geschrieben hat, können Sie einen eigenen
+Beitrag nicht selbst löschen; wenden Sie sich dafür bitte an die in Abschnitt 1 genannte Adresse
+und beschreiben Sie den Beitrag — wir löschen ihn dann.
+
+**Vermeiden:** Öffnen Sie *Feature-Ideen* einfach nicht. Dann wird nichts an diesen Dienst
+übermittelt.
+
 ---
 
 ## 6. Empfängerübersicht
@@ -309,6 +355,7 @@ der in Abschnitt 1 genannten Adresse möglich.
 | Mixpanel, Inc. (EU-Rechenzentrum) | App | Ereignisnamen, technische Merkmale, Vendor-ID | Nutzungsstatistik (widersprechbar) | Art. 6 (1) f |
 | Functional Software, Inc. – Sentry (EU-Region) | App | Absturz- und Diagnosedaten | Stabilität (widersprechbar) | Art. 6 (1) f |
 | Hudson Heavy Industries Ltd – Kickstart Exchange (Vereinigtes Königreich) | App | App-Kennung, Versionen, Kaufnachweis der App, Land des App-Store-Kontos, Einblendungs- und Klickzahlen | Hinweis auf andere Apps (entfällt mit Pro) | Art. 6 (1) f |
+| Hudson Heavy Industries Ltd – Kickstart Signal (Vereinigtes Königreich) | App | Installationskennung, Text von Ideen und Kommentaren, Stimmen, Pro-Status | Feature-Ideen | Art. 6 (1) f / freiwillig |
 
 **Es werden keine Daten über Sie zu Werbezwecken weitergegeben.** Seit Version 1.5.1 zeigt die
 kostenlose Version zwar einen Hinweis auf eine andere App (Abschnitt 5.9) — dafür werden aber
@@ -330,7 +377,7 @@ Art. 44 ff. DSGVO:
   Standardvertragsklauseln.
 * **Sentry:** Die Daten dieser App werden in der **EU-Region** (Rechenzentrum in Deutschland)
   verarbeitet. Für unterstützende Zugriffe aus den USA bestehen Standardvertragsklauseln.
-* **Kickstart Exchange** hat seinen Sitz im **Vereinigten Königreich**. Für das Vereinigte
+* **Kickstart Exchange und Kickstart Signal** haben ihren Sitz im **Vereinigten Königreich**. Für das Vereinigte
   Königreich hat die Europäische Kommission einen **Angemessenheitsbeschluss** nach Art. 45 DSGVO
   erlassen; die Übermittlung bedarf daher keiner zusätzlichen Garantien. Die Auslieferung erfolgt
   nach Angabe des Anbieters über das Netz von Cloudflare; in welchem Land die Daten dabei gespeichert
@@ -358,6 +405,9 @@ vermeiden (Abschnitt 5.5).
   rund **30 Tage** aufbewahrt. Tagesbezogene Summen je App-Paar (App-Kennungen, Datum, Plattform,
   Land, Anzahl der Einblendungen und Klicks) werden ohne feste Löschfrist für Auswertungen
   aufbewahrt; sie enthalten keinen Bezug zu einer Person.
+* **Feature-Ideen** (Abschnitt 5.10) — Ideen, Kommentare und Stimmen — bleiben gespeichert, solange
+  das Ideen-Board besteht. Auf Anfrage unter der in Abschnitt 1 genannten Adresse löschen wir einen
+  Beitrag früher.
 * **Server-Logs** von Cloudflare und GitHub werden nach den dortigen, kurzen Fristen gelöscht.
 
 Die jeweils aktuell eingestellten Fristen teilen wir Ihnen auf Anfrage unter der in Abschnitt 1
@@ -381,7 +431,10 @@ Diese App richtet sich an Kinder. Deshalb gilt hier besondere Zurückhaltung:
   keine einzige Angabe über das Kind übermittelt. Ein Antippen führt in den App Store, wo ein Kauf
   wie immer die Bestätigung über das Apple-Konto erfordert. Mit der **Pro-Version entfällt die
   Karte vollständig**.
-* Es gibt keine Chat-, Kommentar- oder sonstige Kommunikationsfunktion.
+* Die einzige Stelle, an der man etwas schreiben kann, sind die **Feature-Ideen** in den
+  Einstellungen (Abschnitt 5.10). Sie liegen hinter der Rechenaufgabe bzw. dem PIN und sind für
+  Eltern gedacht. Was dort geschrieben wird, ist für niemanden sichtbar, bevor wir es geprüft und veröffentlicht haben, und es wird nie mit einem Namen angezeigt. Einen Chat oder eine
+  andere Kommunikationsfunktion gibt es nicht.
 * Die Einstellungen der App sind durch eine **Rechenaufgabe** geschützt — oder, wenn Sie einen
   eigenen **PIN** festgelegt haben, durch diesen —, damit Kinder sie nicht selbst verändern
   können. Käufe erfordern zusätzlich die Bestätigung über das Apple-Konto.
@@ -389,7 +442,7 @@ Diese App richtet sich an Kinder. Deshalb gilt hier besondere Zurückhaltung:
   findet vollständig auf dem Gerät statt; weder die eingestellte Dauer noch die gehörte Zeit werden
   an den Anbieter oder an Dritte übermittelt.
 
-Die Entscheidung über die Nutzung der App und über die in den Abschnitten 5.6, 5.7 und 5.9
+Die Entscheidung über die Nutzung der App und über die in den Abschnitten 5.6, 5.7, 5.9 und 5.10
 beschriebenen Verarbeitungen trifft der Inhaber der elterlichen Verantwortung (vgl. Art. 8 DSGVO). Wenden Sie
 sich bitte an die in Abschnitt 1 genannte Adresse, wenn Sie die Löschung von Daten Ihres Kindes
 verlangen möchten.
