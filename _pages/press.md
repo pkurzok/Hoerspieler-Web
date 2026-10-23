@@ -29,7 +29,7 @@ dieses Factsheet als Textdatei.
 | **Kategorie** | Unterhaltung (sekundär: Musik) |
 | **Preis** | Gratis. Optionaler einmaliger In-App-Kauf „Hörspieler Pro“ für 2,99 € — kein Abo, mit Familienfreigabe |
 | **Voraussetzung** | Ein Apple-Music-Abo |
-| **Aktuelle Version** | 1.6.0 |
+| **Aktuelle Version** | 1.8.1 |
 | **Erstveröffentlichung** | 4. Januar 2024 |
 | **Plattformen** | iPhone, iPad, CarPlay |
 | **Systemvoraussetzung** | iOS 17.0 oder neuer |
@@ -65,6 +65,29 @@ dieses Factsheet als Textdatei.
 > iCloud der Familie. Eltern legen fest, wie lange am Tag oder in der Woche gehört wird, und
 > schützen die Einstellungen mit einem PIN. Entwickelt hat die App Peter Kurzok, Vater von drei Kindern, ursprünglich für
 > die eigene Familie.
+
+## Neu in Version 1.8.0
+
+* **Feature-Ideen** — in den Einstellungen schlagen Eltern neue Funktionen vor, stimmen für Ideen
+  anderer ab und kommentieren sie (ab iOS 18). Die Liste liegt im Elternbereich, hinter
+  Rechenaufgabe oder PIN. Name, E-Mail-Adresse oder ein Konto braucht es dafür nicht.
+* **Besser bedienbar** — größere Tippflächen, genauere VoiceOver-Beschriftungen und ein Player, der
+  auch in der größten Schriftgröße vollständig bedienbar bleibt.
+* **Flüssiger** — die Offline-Ansicht wird im Hintergrund vorbereitet, ohne die Oberfläche
+  auszubremsen.
+
+## Neu in Version 1.7.0
+
+* **Neue Hörspiele entdecken** — wer ins Suchfeld tippt, bekommt beliebte Hörspielserien
+  vorgeschlagen und solche, die zu den eigenen Favoriten passen. Auch eine leere Bibliothek zeigt
+  so gleich etwas zum Anfangen. Die Vorschläge kommen aus dem Katalog von Apple Music; welche
+  angetippt werden, wird nicht ausgewertet.
+* **Quer und geteilt** — Hörspieler passt sich an: iPhone im Querformat, Split View und Stage
+  Manager auf dem iPad, und das iPhone Duo.
+* **Besser bedienbar für alle** — VoiceOver liest jeden Bildschirm vor, und „Bewegung reduzieren“
+  wird beachtet.
+* **Wieder ab iOS 17** — nach dem Umweg über iOS 18 in Version 1.6.0 läuft Hörspieler wieder auf
+  allen Geräten ab iOS 17. Nur die Spotlight-Suche braucht weiterhin iOS 18.
 
 ## Neu in Version 1.6.0
 
@@ -110,10 +133,13 @@ dieses Factsheet als Textdatei.
 * Große Cover statt Listen — Kachelansicht oder Cover Flow
 * Vorgelesene Interpreten- und Folgentitel für Kinder, die noch nicht lesen können
 * Favoriten und zuletzt Gehörtes, mit sekundengenauer Wiedergabeposition
+* Vorschläge für neue Hörspielserien, passend zu den Favoriten
 * Einschlaf-Timer und Offline-Wiedergabe
 * CarPlay-Unterstützung
 * Kindersicherung: Tages- und Wochenlimit, PIN oder Rechenaufgabe, Suche abschaltbar
-* AirPlay und Bluetooth, Dark und Light Mode, VoiceOver und Dynamic Type
+* Querformat, Split View, Stage Manager und iPhone Duo
+* AirPlay und Bluetooth, Dark und Light Mode, VoiceOver, Dynamic Type und „Bewegung reduzieren“
+* Feature-Ideen: Eltern wünschen sich neue Funktionen und stimmen ab (ab iOS 18)
 
 **Kostenlos gegenüber „Hörspieler Pro“:** Die kostenlose Fassung erlaubt drei Favoriten und zeigt
 am Fuß der Bibliothek eine Hinweiskarte auf eine andere App. Der einmalige In-App-Kauf hebt das
