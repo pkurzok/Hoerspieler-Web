@@ -21,10 +21,10 @@ Kategorie             Unterhaltung (sekundär: Musik)
 Preis                 Gratis. Optionaler einmaliger In-App-Kauf „Hörspieler Pro“
                       für 2,99 € / $2.99 / £2.99 — kein Abo, mit Familienfreigabe.
 Voraussetzung         Ein Apple-Music-Abo. Ohne Abo lässt sich der Katalog nicht abspielen.
-Aktuelle Version      1.6.0
+Aktuelle Version      1.8.1
 Erstveröffentlichung  4. Januar 2024
 Plattformen           iPhone, iPad, CarPlay
-Systemvoraussetzung   iOS 18.0 oder neuer (Version 1.5.0 lief noch ab iOS 17.0)
+Systemvoraussetzung   iOS 17.0 oder neuer
 Sprachen              Deutsch, Englisch
 Altersfreigabe        4+
 App Store             https://apps.apple.com/de/app/id6444850972
