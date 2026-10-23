@@ -32,7 +32,7 @@ dieses Factsheet als Textdatei.
 | **Aktuelle Version** | 1.6.0 |
 | **Erstveröffentlichung** | 4. Januar 2024 |
 | **Plattformen** | iPhone, iPad, CarPlay |
-| **Systemvoraussetzung** | iOS 18.0 oder neuer (Version 1.5.0 lief noch ab iOS 17.0) |
+| **Systemvoraussetzung** | iOS 17.0 oder neuer |
 | **Sprachen** | Deutsch, Englisch |
 | **Altersfreigabe** | 4+ |
 | **App Store** | [apps.apple.com/de/app/id6444850972](https://apps.apple.com/de/app/id6444850972) |
@@ -85,8 +85,8 @@ dieses Factsheet als Textdatei.
   Vermittlungsdienst geht keine Nutzer- oder Gerätekennung und keine Werbe-ID; es entsteht kein
   Profil. „Hörspieler Pro“ entfernt die Karte vollständig. Was dabei übertragen wird, steht in der
   [Datenschutzerklärung]({{ '/privacypolicy/' | relative_url }}).
-* **iOS 18 erforderlich** — 1.6.0 setzt iOS 18 voraus. Geräte auf iOS 17 behalten Version 1.5.0 mit
-  vollem Funktionsumfang; sie erhalten lediglich keine weiteren Aktualisierungen.
+* **Vorübergehend iOS 18** — 1.6.0 setzte iOS 18 voraus; spätere Versionen laufen wieder ab
+  iOS 17.
 
 ## Neu in Version 1.5.0
 
