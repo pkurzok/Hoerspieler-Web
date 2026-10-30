@@ -4,7 +4,7 @@ title: Datenschutzerklärung
 include_in_header: false
 ---
 
-**Stand:** 14. Oktober 2026
+**Stand:** 22. Oktober 2026
 
 Diese Erklärung beschreibt, welche personenbezogenen Daten bei der Nutzung dieser Website
 (**Teil A**) und der App **Hörspieler** (**Teil B**) verarbeitet werden, zu welchen Zwecken das
@@ -141,7 +141,9 @@ Für die Verarbeitung durch Apple gilt zusätzlich die Datenschutzerklärung von
 ### 5.3 Synchronisierung über iCloud / CloudKit
 
 Wenn Sie auf Ihrem Gerät bei iCloud angemeldet sind, werden Favoriten, zuletzt gehörte Alben und
-Wiedergabepositionen über **Apple iCloud (CloudKit)** in Ihre **private** iCloud-Datenbank
+Wiedergabepositionen sowie — für die Sortierung der Bibliothek — das Datum, an dem Sie einen
+Favoriten hinzugefügt haben, und das Datum, an dem ein Album zuletzt gehört wurde, über
+**Apple iCloud (CloudKit)** in Ihre **private** iCloud-Datenbank
 synchronisiert, damit sie auf Ihren weiteren Geräten zur Verfügung stehen. Der Anbieter hat auf
 diese Datenbank **keinen Zugriff**.
 
@@ -245,7 +247,8 @@ Absturzberichte senden*. Die Abschaltung wirkt sofort, nicht erst beim nächsten
 
 ### 5.8 Sicherung und Wiederherstellung
 
-Sie können Ihre Favoriten und Ihren Verlauf als Datei exportieren und wieder einspielen. Dieser
+Sie können Ihre Favoriten (mit dem Datum, an dem Sie sie hinzugefügt haben) und Ihren Verlauf als
+Datei exportieren und wieder einspielen. Dieser
 Vorgang wird ausschließlich von Ihnen ausgelöst; die Datei wird an dem von Ihnen gewählten Ort
 gespeichert. Der Anbieter erhält sie nicht.
 
