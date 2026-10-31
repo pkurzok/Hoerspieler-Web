@@ -3,8 +3,8 @@ HÖRSPIELER — PRESSEMAPPE
 
 Hörspieler ist ein Hörspiel-Player für Kinder, der auf den Katalog von Apple Music
 zugreift. Große Kacheln statt Listen, vorgelesene Titel für Kinder, die noch nicht
-lesen können, ein Einschlaf-Timer, Offline-Wiedergabe für unterwegs und Hörzeit-Limits
-für Eltern.
+lesen können, ein Einschlaf-Timer, Offline-Wiedergabe für unterwegs und Hör-Limits in
+Minuten oder Folgen für Eltern.
 
 Diese Mappe enthält alles, was für eine Berichterstattung gebraucht wird. Die aktuelle
 Fassung steht immer unter https://hoerspieler.app/press/
@@ -21,7 +21,7 @@ Kategorie             Unterhaltung (sekundär: Musik)
 Preis                 Gratis. Optionaler einmaliger In-App-Kauf „Hörspieler Pro“
                       für 2,99 € / $2.99 / £2.99 — kein Abo, mit Familienfreigabe.
 Voraussetzung         Ein Apple-Music-Abo. Ohne Abo lässt sich der Katalog nicht abspielen.
-Aktuelle Version      1.8.1
+Aktuelle Version      1.10.0
 Erstveröffentlichung  4. Januar 2024
 Plattformen           iPhone, iPad, CarPlay
 Systemvoraussetzung   iOS 17.0 oder neuer
@@ -55,8 +55,8 @@ die Kinder direkt antippen; wer noch nicht lesen kann, lässt sich Interpreten u
 Folgen vorlesen. Der Einschlaf-Timer beendet das Hörspiel von selbst, und über
 Apple Music geladene Folgen laufen auch im Funkloch — im Auto, im Zug, im Urlaub.
 Favoriten und Wiedergabepositionen synchronisieren über die private iCloud der
-Familie. Eltern legen fest, wie lange am Tag oder in der Woche gehört wird, und
-schützen die Einstellungen mit einem PIN. Entwickelt hat die App Peter Kurzok, Vater
+Familie. Eltern legen fest, wie viel am Tag oder in der Woche gehört wird — in
+Minuten oder in Folgen — und schützen die Einstellungen mit einem PIN. Entwickelt hat die App Peter Kurzok, Vater
 von drei Kindern, ursprünglich für die eigene Familie.
 
 
@@ -92,8 +92,8 @@ Auf den Screenshots sind Cover fremder Hörspielproduktionen zu sehen (unter and
 KIDDINX und Paw Patrol). Diese Cover gehören ihren jeweiligen Rechteinhabern, stammen
 aus dem Katalog von Apple Music und sind hier nur als Beispiel einer echten Bibliothek
 zu sehen. Sie sind kein Bestandteil der App und werden nicht mitgeliefert. Wer sie
-nicht abbilden möchte, verwendet am besten Screenshot 02 (Player) oder die
-CarPlay-Ansicht.
+nicht abbilden möchte, verwendet am besten Screenshot 03 (Kindersicherung), auf dem
+gar kein Cover zu sehen ist, Screenshot 02 (Player) oder die CarPlay-Ansicht.
 
 Apple, das Apple-Logo, Apple Music, CarPlay, iPhone, iPad, iCloud, Siri und Spotlight
 sind Marken von Apple Inc. Hörspieler ist ein unabhängiges Projekt und steht in keiner

@@ -29,7 +29,7 @@ dieses Factsheet als Textdatei.
 | **Kategorie** | Unterhaltung (sekundär: Musik) |
 | **Preis** | Gratis. Optionaler einmaliger In-App-Kauf „Hörspieler Pro“ für 2,99 € — kein Abo, mit Familienfreigabe |
 | **Voraussetzung** | Ein Apple-Music-Abo |
-| **Aktuelle Version** | 1.8.1 |
+| **Aktuelle Version** | 1.10.0 |
 | **Erstveröffentlichung** | 4. Januar 2024 |
 | **Plattformen** | iPhone, iPad, CarPlay |
 | **Systemvoraussetzung** | iOS 17.0 oder neuer |
@@ -62,9 +62,28 @@ dieses Factsheet als Textdatei.
 > wer noch nicht lesen kann, lässt sich Interpreten und Folgen vorlesen. Der Einschlaf-Timer
 > beendet das Hörspiel von selbst, und über Apple Music geladene Folgen laufen auch im Funkloch —
 > im Auto, im Zug, im Urlaub. Favoriten und Wiedergabepositionen synchronisieren über die private
-> iCloud der Familie. Eltern legen fest, wie lange am Tag oder in der Woche gehört wird, und
-> schützen die Einstellungen mit einem PIN. Entwickelt hat die App Peter Kurzok, Vater von drei Kindern, ursprünglich für
+> iCloud der Familie. Eltern legen fest, wie viel am Tag oder in der Woche gehört wird — in Minuten
+> oder in Folgen — und schützen die Einstellungen mit einem PIN. Entwickelt hat die App Peter Kurzok, Vater von drei Kindern, ursprünglich für
 > die eigene Familie.
+
+## Neu in Version 1.10.0
+
+* **Folgen statt Minuten** — die Kindersicherung begrenzt das Hören jetzt auch auf eine Anzahl
+  Folgen pro Tag oder Woche, zusätzlich oder statt der Zeit. Eine Folge zählt, sobald sie startet;
+  Weiterhören kostet nichts. „Eltern: noch eine Folge“ gibt eine Folge extra frei. Welche Folgen
+  gestartet wurden, bleibt auf dem Gerät.
+* **Gehörte Folgen** — zu Ende gehörte Folgen bekommen ein Häkchen auf dem Cover. Im Sortier-Menü
+  lassen sie sich ausblenden, und ein langer Druck auf ein Cover markiert eine Folge von Hand. Die
+  Markierung wandert über die private iCloud auf die anderen Geräte der Familie. Gewünscht hatten
+  sich das Eltern über die Feature-Ideen.
+* **„Nächstes Album“ folgt der Sortierung** — wer nach Folge sortiert, hört nach Folge 5 auch
+  wirklich Folge 6.
+
+## Neu in Version 1.9.0
+
+* **Sortieren nach Folge** — die Alben einer Serie lassen sich nach Folge, Erscheinungsdatum,
+  Titel oder zuletzt gehört ordnen, und jede Serie merkt sich ihre eigene Sortierung. Die Favoriten
+  sortieren nach Name, Hinzugefügt oder zuletzt gehört. CarPlay übernimmt die Auswahl.
 
 ## Neu in Version 1.8.0
 
@@ -133,10 +152,13 @@ dieses Factsheet als Textdatei.
 * Große Cover statt Listen — Kachelansicht oder Cover Flow
 * Vorgelesene Interpreten- und Folgentitel für Kinder, die noch nicht lesen können
 * Favoriten und zuletzt Gehörtes, mit sekundengenauer Wiedergabeposition
+* Sortieren nach Folge, Erscheinungsdatum, Titel oder zuletzt gehört
+* Gehörte Folgen mit Häkchen, auf Wunsch ausgeblendet
 * Vorschläge für neue Hörspielserien, passend zu den Favoriten
 * Einschlaf-Timer und Offline-Wiedergabe
 * CarPlay-Unterstützung
-* Kindersicherung: Tages- und Wochenlimit, PIN oder Rechenaufgabe, Suche abschaltbar
+* Kindersicherung: Limits pro Tag und Woche in Minuten oder Folgen, PIN oder Rechenaufgabe,
+  Suche abschaltbar
 * Querformat, Split View, Stage Manager und iPhone Duo
 * AirPlay und Bluetooth, Dark und Light Mode, VoiceOver, Dynamic Type und „Bewegung reduzieren“
 * Feature-Ideen: Eltern wünschen sich neue Funktionen und stimmen ab (ab iOS 18)
@@ -169,10 +191,12 @@ Gerahmt und mit Bildtext, so wie im App Store. 1320 × 2868 px.
 
 [![Bibliothek und Favoriten](/assets/store-screenshots/iPhone/01-Library.jpg){: width="180" }](/assets/store-screenshots/iPhone/01-Library.jpg)
 [![Der Player](/assets/store-screenshots/iPhone/02-Player.jpg){: width="180" }](/assets/store-screenshots/iPhone/02-Player.jpg)
-[![Offline hören](/assets/store-screenshots/iPhone/03-Offline.jpg){: width="180" }](/assets/store-screenshots/iPhone/03-Offline.jpg)
-[![Einschlaf-Timer](/assets/store-screenshots/iPhone/04-SleepTimer.jpg){: width="180" }](/assets/store-screenshots/iPhone/04-SleepTimer.jpg)
-[![Suche im Apple-Music-Katalog](/assets/store-screenshots/iPhone/05-Search.jpg){: width="180" }](/assets/store-screenshots/iPhone/05-Search.jpg)
-[![CarPlay](/assets/store-screenshots/iPhone/06-CarPlay.jpg){: width="180" }](/assets/store-screenshots/iPhone/06-CarPlay.jpg)
+[![Kindersicherung: Minuten oder Folgen](/assets/store-screenshots/iPhone/03-Limits.jpg){: width="180" }](/assets/store-screenshots/iPhone/03-Limits.jpg)
+[![Nach Folge sortieren, Gehörtes ausblenden](/assets/store-screenshots/iPhone/04-Sort.jpg){: width="180" }](/assets/store-screenshots/iPhone/04-Sort.jpg)
+[![Offline hören](/assets/store-screenshots/iPhone/05-Offline.jpg){: width="180" }](/assets/store-screenshots/iPhone/05-Offline.jpg)
+[![Einschlaf-Timer](/assets/store-screenshots/iPhone/06-SleepTimer.jpg){: width="180" }](/assets/store-screenshots/iPhone/06-SleepTimer.jpg)
+[![Suche im Apple-Music-Katalog](/assets/store-screenshots/iPhone/07-Search.jpg){: width="180" }](/assets/store-screenshots/iPhone/07-Search.jpg)
+[![CarPlay](/assets/store-screenshots/iPhone/08-CarPlay.jpg){: width="180" }](/assets/store-screenshots/iPhone/08-CarPlay.jpg)
 
 ## Screenshots — iPad
 
@@ -180,10 +204,12 @@ Gerahmt und mit Bildtext, so wie im App Store. 1320 × 2868 px.
 
 [![Bibliothek und Favoriten auf dem iPad](/assets/store-screenshots/iPad/01-Library.jpg){: width="240" }](/assets/store-screenshots/iPad/01-Library.jpg)
 [![Der Player auf dem iPad](/assets/store-screenshots/iPad/02-Player.jpg){: width="240" }](/assets/store-screenshots/iPad/02-Player.jpg)
-[![Offline hören auf dem iPad](/assets/store-screenshots/iPad/03-Offline.jpg){: width="240" }](/assets/store-screenshots/iPad/03-Offline.jpg)
-[![Einschlaf-Timer auf dem iPad](/assets/store-screenshots/iPad/04-SleepTimer.jpg){: width="240" }](/assets/store-screenshots/iPad/04-SleepTimer.jpg)
-[![Suche im Apple-Music-Katalog auf dem iPad](/assets/store-screenshots/iPad/05-Search.jpg){: width="240" }](/assets/store-screenshots/iPad/05-Search.jpg)
-[![CarPlay](/assets/store-screenshots/iPad/06-CarPlay.jpg){: width="240" }](/assets/store-screenshots/iPad/06-CarPlay.jpg)
+[![Kindersicherung: Minuten oder Folgen auf dem iPad](/assets/store-screenshots/iPad/03-Limits.jpg){: width="240" }](/assets/store-screenshots/iPad/03-Limits.jpg)
+[![Nach Folge sortieren, Gehörtes ausblenden auf dem iPad](/assets/store-screenshots/iPad/04-Sort.jpg){: width="240" }](/assets/store-screenshots/iPad/04-Sort.jpg)
+[![Offline hören auf dem iPad](/assets/store-screenshots/iPad/05-Offline.jpg){: width="240" }](/assets/store-screenshots/iPad/05-Offline.jpg)
+[![Einschlaf-Timer auf dem iPad](/assets/store-screenshots/iPad/06-SleepTimer.jpg){: width="240" }](/assets/store-screenshots/iPad/06-SleepTimer.jpg)
+[![Suche im Apple-Music-Katalog auf dem iPad](/assets/store-screenshots/iPad/07-Search.jpg){: width="240" }](/assets/store-screenshots/iPad/07-Search.jpg)
+[![CarPlay](/assets/store-screenshots/iPad/08-CarPlay.jpg){: width="240" }](/assets/store-screenshots/iPad/08-CarPlay.jpg)
 
 ## Screenshots ohne Rahmen
 
@@ -192,9 +218,11 @@ bessere Wahl.
 
 [![Bibliothek, ungerahmt](/assets/store-screenshots/unframed/iPhone-01-Library.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-01-Library.jpg)
 [![Player, ungerahmt](/assets/store-screenshots/unframed/iPhone-02-Player.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-02-Player.jpg)
-[![Offline, ungerahmt](/assets/store-screenshots/unframed/iPhone-03-Offline.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-03-Offline.jpg)
-[![Einschlaf-Timer, ungerahmt](/assets/store-screenshots/unframed/iPhone-04-SleepTimer.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-04-SleepTimer.jpg)
-[![Suche, ungerahmt](/assets/store-screenshots/unframed/iPhone-05-Search.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-05-Search.jpg)
+[![Kindersicherung, ungerahmt](/assets/store-screenshots/unframed/iPhone-03-Limits.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-03-Limits.jpg)
+[![Sortieren, ungerahmt](/assets/store-screenshots/unframed/iPhone-04-Sort.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-04-Sort.jpg)
+[![Offline, ungerahmt](/assets/store-screenshots/unframed/iPhone-05-Offline.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-05-Offline.jpg)
+[![Einschlaf-Timer, ungerahmt](/assets/store-screenshots/unframed/iPhone-06-SleepTimer.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-06-SleepTimer.jpg)
+[![Suche, ungerahmt](/assets/store-screenshots/unframed/iPhone-07-Search.jpg){: width="140" }](/assets/store-screenshots/unframed/iPhone-07-Search.jpg)
 
 [![CarPlay, ungerahmt](/assets/store-screenshots/unframed/CarPlay.png){: width="420" }](/assets/store-screenshots/unframed/CarPlay.png)
 
@@ -228,7 +256,8 @@ Auf den Screenshots sind Cover fremder Hörspielproduktionen zu sehen (unter and
 Paw Patrol). Diese Cover gehören ihren jeweiligen Rechteinhabern, stammen aus dem Katalog von Apple
 Music und sind hier nur als Beispiel einer echten Bibliothek zu sehen. Sie sind kein Bestandteil
 der App und werden nicht mitgeliefert. Wer sie nicht abbilden möchte, verwendet am besten
-Screenshot 02 (Player) oder die CarPlay-Ansicht.
+Screenshot 03 (Kindersicherung), auf dem gar kein Cover zu sehen ist, Screenshot 02 (Player)
+oder die CarPlay-Ansicht.
 
 Apple, das Apple-Logo, Apple Music, CarPlay, iPhone, iPad, iCloud, Siri und Spotlight sind Marken
 von Apple Inc. Hörspieler ist ein unabhängiges Projekt und steht in keiner Verbindung zu Apple Inc.
