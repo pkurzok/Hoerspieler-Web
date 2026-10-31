@@ -4,7 +4,7 @@ title: Datenschutzerklärung
 include_in_header: false
 ---
 
-**Stand:** 22. Oktober 2026
+**Stand:** 30. Oktober 2026
 
 Diese Erklärung beschreibt, welche personenbezogenen Daten bei der Nutzung dieser Website
 (**Teil A**) und der App **Hörspieler** (**Teil B**) verarbeitet werden, zu welchen Zwecken das
@@ -108,11 +108,16 @@ Anbieter übermittelt:
 * Favoriten (gemerkte Interpreten) und zuletzt gehörte Alben samt Wiedergabeposition,
 * sämtliche Einstellungen (Suche, Filter, Sprachausgabe, Demomodus, Ein- und Ausschalter für
   Statistik und Absturzberichte),
-* die Kindersicherung: das eingestellte Tages- und Wochenlimit, die bereits gehörte Zeit des
-  laufenden Tages und der laufenden Woche, eine gegebenenfalls erteilte Freigabe (längstens bis
-  Mitternacht) sowie — falls gesetzt — der Eltern-PIN. Der PIN wird **nicht im Klartext** gespeichert, sondern
+* die Kindersicherung: das eingestellte Tages- und Wochenlimit (in Minuten und/oder in Folgen), die
+  bereits gehörte Zeit des laufenden Tages und der laufenden Woche, — nur solange ein Limit nach
+  Folgen eingeschaltet ist — die Katalogkennungen der heute und in dieser Woche gestarteten Alben
+  samt einer von den Eltern gewährten Extra-Folge, eine gegebenenfalls erteilte Freigabe (längstens
+  bis Mitternacht) sowie — falls gesetzt — der Eltern-PIN. Der PIN wird **nicht im Klartext** gespeichert, sondern
   nur als kryptografische Prüfsumme mit Zufallswert (SHA-256 mit Salt); die eingegebenen Ziffern
   verlassen das Gerät zu keiner Zeit und werden auch lokal nicht aufbewahrt,
+* die Zahl der zu Ende gehörten Alben sowie App-Version und Datum der letzten Bitte um eine
+  App-Store-Bewertung — damit die App höchstens einmal je Version und frühestens nach 14 Tagen
+  erneut fragt,
 * der Zwischenspeicher für Albumcover und für erzeugte Sprachausgabe-Dateien,
 * der lokale Suchindex (Spotlight) sowie Hinweise der App.
 
@@ -142,7 +147,8 @@ Für die Verarbeitung durch Apple gilt zusätzlich die Datenschutzerklärung von
 
 Wenn Sie auf Ihrem Gerät bei iCloud angemeldet sind, werden Favoriten, zuletzt gehörte Alben und
 Wiedergabepositionen sowie — für die Sortierung der Bibliothek — das Datum, an dem Sie einen
-Favoriten hinzugefügt haben, und das Datum, an dem ein Album zuletzt gehört wurde, über
+Favoriten hinzugefügt haben, und das Datum, an dem ein Album zuletzt gehört wurde, sowie das Datum,
+an dem ein Album als gehört markiert wurde (zu Ende gehört oder von Hand markiert), über
 **Apple iCloud (CloudKit)** in Ihre **private** iCloud-Datenbank
 synchronisiert, damit sie auf Ihren weiteren Geräten zur Verfügung stehen. Der Anbieter hat auf
 diese Datenbank **keinen Zugriff**.
@@ -193,10 +199,10 @@ verwendet wurde, ob ein Filter aktiv ist, die Anzahl der Favoriten), die ursprü
 App-Version sowie eine **gerätegebundene Kennung** (die von Apple vergebene *Vendor-ID*), die die
 Ereignisse eines Geräts zusammenführt.
 
-Zur Kindersicherung wird ausschließlich übermittelt, **ob** ein Tages- oder Wochenlimit ein- oder
-ausgeschaltet wurde, **welches** der beiden es war, ob ein PIN gesetzt ist, und dass eine Freigabe
-genutzt wurde — ohne Angabe, ob für den Rest des Tages oder für einige Minuten. **Nicht übermittelt** werden die eingestellte Dauer, die tatsächlich
-gehörte Zeit und der PIN selbst — wie lange ein Kind hören darf, ist eine Erziehungsentscheidung
+Zur Kindersicherung wird ausschließlich übermittelt, **ob** ein Tages- oder Wochenlimit (nach Zeit
+oder nach Folgen) ein- oder ausgeschaltet wurde, **welches** es war, ob ein PIN gesetzt ist, und dass eine Freigabe
+genutzt wurde — ohne Angabe, ob für den Rest des Tages oder für einige Minuten. **Nicht übermittelt** werden die eingestellte Dauer oder Anzahl, die tatsächlich
+gehörte Zeit, welche Folgen gestartet wurden und der PIN selbst — wie lange ein Kind hören darf, ist eine Erziehungsentscheidung
 und keine technische Angabe über die App.
 
 **Diese Kennung ist pseudonym, nicht anonym.** Sie ist keinem Namen, keiner E-Mail-Adresse und
@@ -247,8 +253,8 @@ Absturzberichte senden*. Die Abschaltung wirkt sofort, nicht erst beim nächsten
 
 ### 5.8 Sicherung und Wiederherstellung
 
-Sie können Ihre Favoriten (mit dem Datum, an dem Sie sie hinzugefügt haben) und Ihren Verlauf als
-Datei exportieren und wieder einspielen. Dieser
+Sie können Ihre Favoriten (mit dem Datum, an dem Sie sie hinzugefügt haben), Ihren Verlauf und die
+als gehört markierten Alben als Datei exportieren und wieder einspielen. Dieser
 Vorgang wird ausschließlich von Ihnen ausgelöst; die Datei wird an dem von Ihnen gewählten Ort
 gespeichert. Der Anbieter erhält sie nicht.
 
